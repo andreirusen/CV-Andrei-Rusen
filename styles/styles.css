@@ -1,12 +1,12 @@
 body {
-    background-color: #E5E5E5;
+    background-color:#222831;
     font-family: 'Montserrat Alternates'
 }
 /* Right section styles */
 .right-section{
     padding-left: 90px;
     padding-right: 220px;
-    background-color: #fff;
+    background-color: #eeeeee;
 }
 .about-me-profesion{
     font-size: 14px;
@@ -17,7 +17,7 @@ body {
     line-height: 17px;
     margin-top: 100px;
 }
-#persona-name{
+#personal-name{
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -25,20 +25,22 @@ body {
     margin-top: 30px;
 }
 .main-section{
+    justify-content:center;
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px;
+    width: 1000px;
     margin: 40px auto;
+    text-align: justify;
 }
 .about-me-section{
-    width: 400px;
+    width: 600px;
 }
 .about-me-section p {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: #292929;
 }
 .project-sections{
     margin: 40px 0 0 0;
@@ -62,11 +64,11 @@ ol li, .bracket {
     font-size: 14px;
     line-height: 24px;
     text-decoration-line: underline;
-    color: #595959;
+    color: #292929;
     margin-left: 10px;
 }
 .projects-item a {
-    color: #595959;
+    color: #292929;
 }
 .work-experience-section {
     margin-top: 50px;
@@ -80,14 +82,14 @@ ol li, .bracket {
     color: #000000;
 }
 .work-experience-company {
-    color: #FB6D3A;
+    color: #dc2f2f;
 }
 .work-experience-period, .education-experience-period {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
-    color: #A8A8A8;
+    color: #7e7e7e;
 }
 .line-break {
     color: black;
@@ -100,14 +102,14 @@ ol li, .bracket {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: #292929;
 }
 .education-university-name {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: #FB6D3A;
+    color: #dc2f2f;
 }
 .education-university-profile {
     font-style: normal;
@@ -116,9 +118,12 @@ ol li, .bracket {
     line-height: 17px;
     color: #000000;
 }
+
+
+
 /* Sidebar Styles */
 .sidebar-section{
-    background-color: #1E2939;
+    background-color: #393e46;
     width: 370px;
 }
 .sidebar-section img {
@@ -141,7 +146,7 @@ ol li, .bracket {
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
-    color: #FB6D3A;
+    color: #dc2f2f;
     margin-right: 5px;
 }
 .contacts-section-value {
@@ -152,7 +157,7 @@ ol li, .bracket {
     color: #fff;
 }
 .sidebar-list{
-    color: #FB6D3A;
+    color: #dc2f2f;
     padding-left: 20px;
 }
 .sidebar-list span {
